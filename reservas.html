@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Englebert&family=Manrope:wght@300&family=Quicksand:wght@500&family=Roboto:ital,wght@1,100&family=Tulpen+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Imagenes/gallery/logo.png">  
+    <script src="validacion.js"></script>
+    
+</head>
+</head>
+<body> 
+    <header>
+        <h1>Reservas</h1>
+        <div id="velvet">
+            <img src="./Imagenes/gallery/logo.png">
+        </div>
+        <a href="index.html">Home</a>
+        <a href="nosotras.html">Nosotras</a>
+        <a href="menu.html">Menu</a>
+        <a href="reservas.html">Reservas</a>
+    </header>
+    <h1>Formulario de Reserva</h1>
+    <form id="formularioReserva" onsubmit="return validarFormulario();">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono"><br>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="fecha">Fecha de Reserva:</label>
+        <input type="date" id="fecha" name="fecha"><br>
+
+        <label>Comida:</label>
+        <input type="radio" id="cena" name="comida" value="cena">
+        <label for="cena">Cena</label>
+        <input type="radio" id="almuerzo" name="comida" value="almuerzo">
+        <label for="almuerzo">Almuerzo</label><br>
+
+        <label for="personas">Cantidad de Personas:</label>
+        <input type="number" id="personas" name="personas"><br>
+
+        <label for="observacion">Observación:</label>
+        <textarea id="observacion" name="observacion" rows="4"></textarea><br>
+
+        <input type="submit" value="Enviar Reserva">
+    </form>
+    <main>
+
+    </main>
+    <footer>
+        <p>Sitio creado por grupo BSFN</p>
+            <nav>
+                <a href="https://www.facebook.com/marta.minujin.10">
+                    <img width="20" src="./imagenes/facebook.png" alt="Facebook">
+                </a>
+                <br>
+                <a href="https://www.instagram.com/historia.del.arte/">
+                <img width="20" src="./imagenes/instagram.png"></a>
+    </footer>
+</body>
+</html>
