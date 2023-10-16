@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Englebert&family=Manrope:wght@300&family=Quicksand:wght@500&family=Roboto:ital,wght@1,100&family=Tulpen+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Imagenes/gallery/logo.png">  
+    <script src="validacion.js"></script>
+    
+</head>
+</head>
+<body> 
+    <header>
+        
+        <div id="velvet">
+            <img src="./Imagenes/gallery/logo.png">
+        </div>
+        <a href="index.html">Home</a>
+        <a href="nosotras.html">Nosotras</a>
+        <a href="menu.html">Menu</a>
+        <a href="reservas.html">Reservas</a>
+    </header>
+    <h1>Formulario de Reserva</h1>
+    <form id="formularioReserva" onsubmit="return validarFormulario();">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono"><br>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="fecha">Fecha de Reserva:</label>
+        <input type="date" id="fecha" name="fecha"><br>
+
+        <label>Comida:</label>
+        <input type="radio" id="desayuno" name="comida" value="desayuno">
+        <label for="desayuno">Desayuno</label>
+        <input type="radio" id="merienda" name="comida" value="merienda">
+        <label for="merienda">Merienda</label><br>
+
+        <label for="personas">Cantidad de Personas:</label>
+        <input type="number" id="personas" name="personas"><br>
+
+        <label for="observacion">Observación:</label>
+        <textarea id="observacion" name="observacion" rows="4"></textarea><br>
+
+        <input type="submit" value="Enviar Reserva">
+    </form>
+    <main>
+
+    </main>
+    <footer>
+    <div class="piepag">
+            
+        <nav>
+            <p>Nuestas redes</p>
+            <a href="https://www.facebook.com">
+                <img width="20" src="./imagenes/facebook.png" alt="Facebook">
+            </a>
+            <br>
+            <a href="https://www.instagram.com">
+            <img width="20" src="./imagenes/instagram.png"></a>
+            <br>
+            <p>Ubicación</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d88370.10952997179!2d-58.44603646609177!3d-34.60229418298057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1697486279623!5m2!1ses-419!2sar" width="250" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>
+            <p>Sitio creado por grupo BSFN</p>
+        </nav>  
+    </div>
+</footer>
+</body>
+</html>
