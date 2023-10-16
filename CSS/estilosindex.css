@@ -6,10 +6,21 @@
 body {
 	background: #f4f1e9;
 	color: #000;
-    font-family: 'Englebert', sans-serif;
+    font-family: 'manrope', sans-serif;
     font-size: larger;
 }
-
+.piepag {text-align: center;
+        font-family: 'manrope', sans-serif; color:rgb(32, 32, 66);
+        background-color: #ffdab9;
+        margin-right: 110px;
+        margin-left: 110px;
+        padding: 10px;
+        border-top-width: 15px;
+        border-style: solid;
+        border-color: #f4f1e9;
+        
+    
+}
 .container {
     width: 90%;
     max-width: 70rem;
@@ -37,7 +48,7 @@ body {
 }
 
 nav a:hover {
-    color: #F88F89;
+    color: #ffdab9;
 
 }
 

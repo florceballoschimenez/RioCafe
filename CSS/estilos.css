@@ -4,7 +4,7 @@ header{
   min-height: 70px;
   justify-content: space-between;
   height: 18 0px;
-  background-color: #FFCBA4;
+  background-color: #ffdab9;
   align-items: center;
   padding: 10px;
   font-family: 'Englebert', sans-serif;
@@ -18,13 +18,20 @@ font-size:large;
 }
 a, h3, ul{font-family: 'manrope', sans-serif;}
 
-footer{
-  font-family: 'Manrope', sans-serif ;
-}
+
 form{ font-family: 'Manrope', sans-serif;}
 
 p{font-family: 'Manrope', sans-serif;}
 
+.piepag {text-align: center;
+  font-family: 'manrope', sans-serif; color:rgb(32, 32, 66);
+  background-color: #ffdab9;
+  margin-right: 110px;
+  margin-left: 110px;
+  padding: 10px;
+  border-top-width: 15px;
+  border-style: solid;
+  border-color: #f4f1e9;}
 
 .container {
   font-family: 'Manrope', sans-serif;
