@@ -19,7 +19,6 @@ body {
         border-style: solid;
         border-color: #f4f1e9;
         
-    
 }
 .container {
     width: 90%;
@@ -53,10 +52,10 @@ nav a:hover {
 }
 
 .imagen-home {
-   width: 100%;
-   max-width: 70rem;
-   grid-column: span 1;
-   display: block;
+width: 100%;
+max-width: 70rem;
+grid-column: span 1;
+display: block;
 }
 
 .imagen-home img {
