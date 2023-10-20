@@ -38,6 +38,8 @@ p{font-family: 'Manrope', sans-serif;}
   border-style: solid;
   border-color: #9a5071;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   }
 #redes{
   display: flex;
@@ -91,18 +93,19 @@ display: block;
 }
 #formReserva h1, form {
   font-family: 'Manrope', sans-serif;
-  max-width: 1200px;
+  max-width:max-content;
   margin: 10px 20px 10px 100px; 
   padding: 20px;
   border-style: solid;
   border-color: #9a5071;
   box-sizing: border-box;
-  position: relative;
-  left: 100px;
+  display: flex;
+  flex-direction:column;
 }
 input, textarea{
   background-color: #ffdab9;
-  position: relative;
+
+  max-width:fit-content;
   
 }
 @media (max-width: 900px) {
