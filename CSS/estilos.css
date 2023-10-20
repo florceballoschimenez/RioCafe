@@ -25,23 +25,29 @@ header{
 h1{
 font-family: 'Englebert', sans-serif;
 font-size:large;
+align-items: center;
 }
 a, h3, ul{font-family: 'manrope', sans-serif;}
-
-
-form{ font-family: 'Manrope', sans-serif;}
 
 p{font-family: 'Manrope', sans-serif;}
 
 .piepag {text-align: center;
   font-family: 'manrope', sans-serif; color:rgb(32, 32, 66);
   background-color: #e6d8cb;
-  margin-right: 110px;
-  margin-left: 110px;
-  padding: 10px;
   border-top-width: 15px;
   border-style: solid;
-  border-color: #9a5071;}
+  border-color: #9a5071;
+  box-sizing: border-box;
+  }
+#redes{
+  display: flex;
+  flex-direction: column;
+  left: 100px;
+  right: 100px;}
+#map{display: flex; 
+  flex-direction: column-reverse ;
+  left: 100px;
+  right: 100px;}
 
 .container {
   font-family: 'Manrope', sans-serif;
@@ -83,7 +89,22 @@ display: block;
   object-fit: cover;
   object-position: bottom;
 }
-
+#formReserva h1, form {
+  font-family: 'Manrope', sans-serif;
+  max-width: 1200px;
+  margin: 10px 20px 10px 100px; 
+  padding: 20px;
+  border-style: solid;
+  border-color: #9a5071;
+  box-sizing: border-box;
+  position: relative;
+  left: 100px;
+}
+input, textarea{
+  background-color: #ffdab9;
+  position: relative;
+  
+}
 @media (max-width: 900px) {
 
   .container {
@@ -213,4 +234,5 @@ display: block;
       height: 125px;
     }
   }
+
   
