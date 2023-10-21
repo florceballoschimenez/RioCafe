@@ -54,16 +54,12 @@ p{font-family: 'Manrope', sans-serif;}
 .container {
   font-family: 'Manrope', sans-serif;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 1.5em;
-  }
+}
   .container header {
     background-color: #e6d8cb;
     grid-column: span 1;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px;
 }
 .container nav{
   width: 50%;
