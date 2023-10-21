@@ -53,7 +53,7 @@ p{font-family: 'Manrope', sans-serif;}
 
 .container {
   font-family: 'Manrope', sans-serif;
-    max-width: 1200px;
+    max-width: auto;
 }
   .container header {
     background-color: #e6d8cb;
