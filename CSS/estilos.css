@@ -51,36 +51,30 @@ header img {
 }
 
 @media screen and (min-width: 768px) {
-  .Logocafe {
-    width: auto;
-    height: 80px;
-  }
-
-}
-
-@media screen and (max-width: 768px) {
-  .Logocafe {
-    width: auto;
-    height: 70px;
-  }
-
-}
-
-@media screen and (min-width: 991px) {
-  .Logocafe {
+  .logoCafe {
     width: auto;
     height: 100px;
   }
 
-}
+@media screen and (max-width: 768px) {
+  .logoCafe {
+    width: auto;
+    height: 100px;
+  }
+
+ 
+@media screen and (min-width: 991px) {
+  .logoCafe {
+    width: auto;
+    height: 100px;
+  }
 
 @media screen and (max-width: 600px) {
-  .Logocafe {
+  .logoCafe {
     width: auto;
-    height: 60px;
+    height: 100px;
   }
 
-  }
 
 .container nav{
     width: 50%;
