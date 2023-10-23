@@ -2,30 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reservas</title>
-    <link rel="stylesheet" href="./CSS/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Englebert&family=Manrope:wght@300&family=Quicksand:wght@500&family=Roboto:ital,wght@1,100&family=Tulpen+One&display=swap" rel="stylesheet">
-    <link rel="icon" href="./Imagenes/gallery/TazaC.jpg">  
-    <script src="validacion.js"></script>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <script src="JS/validacion.js" defer></script>
+    <link rel="shortcut icon" href="Imagenes/gallery/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home</title>
 </head>
-</head>
-<body> 
-    <header>
-        
-        <div id="velvet">
-            <a href="./index.html" alt="Logo cafeteria">
-                <img src="Imagenes/gallery/TazaC.jpg" alt="Logo cafeteria">
-                <img src="Imagenes/gallery/rio.jpg" alt="Logo rio">
-        </div>
-        <a href="./index (2).html">Home</a>
-        <a href="nosotras.html">Nosotras</a>
-        <a href="menu.html">Menu</a>
-        <a href="reservas.html">Reservas</a>
-    </header>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" alt="Logo cafeteria">
+                <img src="Imagenes/gallery/logo.png" alt="Logo cafeteria" class="logoCafe">
+            </a>
+            <nav>
+                <a href="menu.html" class="Menu">Menu</a>
+                <a href="nosotras.html" class="Nosotras">Nosotras</a>
+                <a href="sucursales.html" class="Sucursales">Sucursales</a>
+                <a href="reservas.html" class="Reservas">Reservas</a>
+            </nav>
+        </header>       
     <main id="formReserva">
     <h1>Formulario de Reserva</h1>
     <form id="formularioReserva" onsubmit="return validarFormulario();">
@@ -59,28 +59,34 @@
         <input type="submit" value="Enviar Reserva">
     </form>
     </main>
-    <footer class="piepag">
-        <div id="redes">           
-            <nav >
-                <p>Nuestas redes</p>
-                <a href="https://www.facebook.com">
-                    <img width="20" src="./imagenes/facebook.png" alt="Facebook">
-                </a>
-                <br>
-                <a href="https://www.instagram.com">
-                <img width="20" src="./imagenes/instagram.png"></a>
-            </nav>
+    <footer>
+        <div class="container-footer">
+          <div class="nuestras-redes">
+            <h2>Nuestras Redes</h2>
+            <ul class="sci">
+              <li> <a href="#"><i class="fa-brands fa-facebook-f"></i></a> </li>
+              <li> <a href="#"><i class="fa-brands fa-twitter"></i></a> </li>
+              <li> <a href="#"><i class="fa-brands fa-instagram"></i></a> </li>
+              <li> <a href="#"><i class="fa-brands fa-youtube"></i></a> </li>
+            </ul>
+          </div>
+          <div class="contacto">
+            <h2>Contacto</h2>
+            <ul class="info">
+              <li>
+                <span><i class="fa-solid fa-phone"></i></span><p><a href="#">+5491456324567</a></p>
+              </li>
+            </ul>
+            <ul class="info">
+              <li>
+                <span><i class="fa-solid fa-envelope"></i></span><p><a href="#">riocafe@fibertel.com.ar</a></p>
+              </li>
+            </ul>
+          </div>
+          <div class="copyrightText">
+            <p>Copyright 2023 BSFN. All Rights Reserved</p>
+          </div>
         </div>
-                <br>
-            <div id="map">
-            <nav>
-                <p>Ubicación</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d88370.10952997179!2d-58.44603646609177!3d-34.60229418298057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1697486279623!5m2!1ses-419!2sar" width="250" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <br>
-                <br>
-                <p>Sitio creado por grupo BSFN</p>
-            </nav>  
-        </div>
-    </footer>
+      </footer>
 </body>
 </html>
