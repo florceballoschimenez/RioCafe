@@ -41,25 +41,25 @@ function validarFormulario() {
 }
 
 //PROBANDO CARRUSEL
-const carousel = document.querySelector(".carousel");
-const prevButton = document.querySelector(".prev-button");
-const nextButton = document.querySelector(".next-button");
+const carousel = document.querySelector('.carousel');
+const slides = document.querySelectorAll('.slide');
+const indicators = document.querySelectorAll('.indicator');
+let currentSlide = 0;
 
-let currentIndex = 0;
+indicators[currentSlide].classList.add('active');
 
-function showImage(index) {
-    const slideWidth = carousel.clientWidth;
-    carousel.style.transform = `translateX(-${index * slideWidth}px)`;
+indicators.forEach((indicator, index) => {
+  indicator.addEventListener('click', () => {
+    currentSlide = index;
+    updateCarousel();
+  });
+});
+
+function updateCarousel() {
+  const offset = currentSlide * -100;
+  carousel.style.transform = `translateX(${offset}%)`;
+
+  indicators.forEach((indicator, index) => {
+    indicator.classList.toggle('active', index === currentSlide);
+  });
 }
-
-prevButton.addEventListener("click", () => {
-    currentIndex = (currentIndex - 1 + carousel.children.length) % carousel.children.length;
-    showImage(currentIndex);
-});
-
-nextButton.addEventListener("click", () => {
-    currentIndex = (currentIndex + 1) % carousel.children.length;
-    showImage(currentIndex);
-});
-
-showImage(currentIndex);
