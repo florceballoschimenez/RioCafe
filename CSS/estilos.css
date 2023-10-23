@@ -50,6 +50,29 @@ header img {
 
 
 }
+
+ @media screen and (min-width: 768px) {
+          .logoCafe {
+        width: auto;
+        height: 100px;
+      }
+      }
+    
+    
+    @media screen and (max-width: 768px) {
+      .logoCafe {
+        width: auto;
+        height: 100px;
+      }
+
+    }
+    
+    @media screen and (max-width: 600px) {
+      .logoCafe {
+        width: auto;
+        height: 100px;
+      }
+    }
 .container nav{
     width: 50%;
     display: flex;
