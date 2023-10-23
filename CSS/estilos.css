@@ -31,6 +31,7 @@ header img {
     padding: 2px;
     margin-bottom: 60px;
     margin-left: 20px;
+    width: 100px
 }
 
 .container header {
@@ -48,36 +49,6 @@ header img {
 
 
 }
-@media screen and (min-width: 768px) {
-  .logoCafe {
-    width: auto;
-    height: 100px;
-  }
-
-}
-
-@media screen and (max-width: 768px) {
-  .logoCafe {
-    width: auto;
-    height: 100px;
-  }
-
- 
-@media screen and (min-width: 991px) {
-  .logoCafe {
-    width: auto;
-    height: 100px;
-  }
-
-}
-
-@media screen and (max-width: 600px) {
-  .logoCafe {
-    width: auto;
-    height: 100px;
-  }
-
-
 .container nav{
     width: 50%;
     display: flex;
