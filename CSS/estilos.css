@@ -192,7 +192,7 @@ footer {
   border-radius: 10px;
   position: relative;
   grid-column: span 2;
-  height: 90px;
+  height: 100px;
   padding: 30px;
   border-radius: 30px;
   background-color: #F1BBBB;
@@ -243,9 +243,12 @@ footer .container-footer .sci li a {
   text-decoration: none;
 }
 
-.contacto h2 {
-  margin-bottom: 10px;
-  font-size: 15px; 
+footer .container-footer .contacto h2 {
+  position: relative;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 15px;
 }
 
 footer .container-footer .contacto .info {
@@ -346,21 +349,29 @@ input, textarea{
   margin-left: 25px;
 }
 
-  footer .container-footer {
+footer .container-footer {
     display: flex;
     flex-direction: column;
-    font-size: 15px;
     align-items: center;
-
+    margin-top: -10px;
   }
   
-  .copyrightText {
-    text-align: center;
-    font-size:small;
-    font-size: 10px;   
-  }
 
-  }
+  
+footer .contacto .info {
+  margin-top: -15px;
+}
+
+footer .contacto h2 {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+footer .container-footer .nuestras-redes h2 {
+  font-size: 15px;
+}
+
+}
 
 
 
