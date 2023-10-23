@@ -50,6 +50,38 @@ header img {
 
 }
 
+@media screen and (min-width: 768px) {
+  .Logocafe {
+    width: auto;
+    height: 80px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .Logocafe {
+    width: auto;
+    height: 70px;
+  }
+
+}
+
+@media screen and (min-width: 991px) {
+  .Logocafe {
+    width: auto;
+    height: 100px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .Logocafe {
+    width: auto;
+    height: 60px;
+  }
+
+  }
+
 .container nav{
     width: 50%;
     display: flex;
@@ -425,7 +457,7 @@ footer .container-footer .nuestras-redes h2 {
     line-height: 1.6;
   }
   
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 768px) {
     .menu {
       font-size: 16px;
     }
