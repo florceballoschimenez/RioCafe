@@ -452,6 +452,20 @@ footer .container-footer .nuestras-redes h2 {
     .menu {
       font-size: 16px;
     }
+
+    .container-menu {
+      grid-template-columns: repeat (2fr);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      grid-column: span 2;
+      margin: 10px;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-around;
+    }
   
     .menu-group {
       grid-template-columns: repeat(2, 1fr);
@@ -461,7 +475,8 @@ footer .container-footer .nuestras-redes h2 {
       width: 125px;
       height: 125px;
     }
-  }
 
+     
+  }
   
 
