@@ -107,7 +107,7 @@ a:hover {
 .carousel-container {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 300%;
     max-width: 70rem; /* Ajuste el ancho máximo según se necesite*/
     margin: 0 auto;
     grid-column: span 2;
@@ -115,8 +115,22 @@ a:hover {
   }
   
   .carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+    display: flex;width: 100%;
+    animation: animacion 20s infinite;
+  }
+
+@keyframes animacion {
+    0% {margin-left: 0%}
+    20% {margin-left: 0%}
+
+    25% {margin-left: -100%}
+    40% {margin-left: -100%}
+
+    50% {margin-left: -200%}
+    70% {margin-left: -200%}
+
+    75% {margin-left: -300%}
+    100% {margin-left: -300%}
   }
   
   .slide {
