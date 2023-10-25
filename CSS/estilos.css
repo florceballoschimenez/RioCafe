@@ -114,9 +114,26 @@ a:hover {
     
   }
   
-  .carousel {
+ .carousel {
     display: flex;
+    width: 100%;
     transition: transform 0.5s ease-in-out;
+    animation: animacion 10s infinite;
+  }
+
+
+  @keyframes animacion {
+    0% {margin-left: 0%}
+    20% {margin-left: 0%}
+
+    25% {margin-left: -100%}
+    40% {margin-left: -100%}
+
+    50% {margin-left: -200%}
+    70% {margin-left: -200%}
+
+    75% {margin-left: -300%}
+    100% {margin-left: -300%}
   }
   
   .slide {
